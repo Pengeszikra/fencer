@@ -1,0 +1,32 @@
+{
+  "name": "nomade-js",
+  "version": "0.0.1",
+  "main": "build/index.js",
+  "files": [
+    "src/index.js"
+  ],
+  "scripts": {
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pengeszikra/nomad-js.git"
+  },
+  "author": "Peter Vivo <pengeszikra@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Pengeszikra/nomad-js/issues"
+  },
+  "homepage": "https://github.com/Pengeszikra/nomad-js#readme",
+  "description": "Jsx based minimalist functional framework without dependency",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-proposal-pipeline-operator": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "webpack": "^4.23.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  }
+}
