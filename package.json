@@ -1,5 +1,5 @@
 {
-  "name": "nomad-js",
+  "name": "fencer",
   "version": "0.0.1",
   "main": "build/index.js",
   "files": [
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Pengeszikra/nomad-js.git"
+    "url": "git+https://github.com/Pengeszikra/fencer.git"
   },
   "author": "Peter Vivo <pengeszikra@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Pengeszikra/nomad-js/issues"
+    "url": "https://github.com/Pengeszikra/fencer/issues"
   },
-  "homepage": "https://github.com/Pengeszikra/nomad-js#readme",
-  "description": "Jsx based minimalist functional framework without dependency",
+  "homepage": "https://github.com/Pengeszikra/fencer#readme",
+  "description": "Experimental functional JSX framework",
   "devDependencies": {
     "@babel/core": "^7.1.2",
     "@babel/plugin-proposal-pipeline-operator": "^7.0.0",

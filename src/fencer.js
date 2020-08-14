@@ -1,4 +1,4 @@
-export const nomad = (tag, attrs, ...children) => {
+export const fencer = (tag, attrs, ...children) => {
   if (typeof tag === 'function') return tag();
   if (typeof tag === 'string') {
     const fragments = document.createDocumentFragment();

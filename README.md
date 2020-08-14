@@ -1,13 +1,13 @@
-# NOMAD-JS
-Jsx based minimalist functional framework without dependency
+# FENCER
+Experimental functional JSX framework.
 
 **Highlights:**
 - JSX syntax
-- basic dom manipulation
-- optional callbag sideffects
+- functional side effects handling
+- minimal size
 
 ## Usage
-```npm install nomad-js```
+```npm install fencer-js```
 
 ## Preffered: Pipeline operator
 
@@ -17,7 +17,7 @@ Jsx based minimalist functional framework without dependency
   "plugins": [
     [ "@babel/plugin-proposal-pipeline-operator", {"proposal": "minimal"}],
     "@babel/plugin-syntax-jsx",    
-    [ "@babel/plugin-transform-react-jsx", { "pragma": "nomad" }]    
+    [ "@babel/plugin-transform-react-jsx", { "pragma": "fencer" }]    
   ]
 }
 ```

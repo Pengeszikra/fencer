@@ -1,3 +1,3 @@
-import { nomad, jlog } from './nomad';
+import { fencer, jlog } from './fencer';
 
-export { nomad, jlog };
+export { fencer, jlog };
