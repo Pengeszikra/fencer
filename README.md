@@ -7,9 +7,30 @@ Experimental functional JSX framework.
 - minimal size
 
 ## Usage
-```npm install fencer-js```
+```yarn add fencer```
 
-## Preffered: Pipeline operator
+## example : under construct!!
+
+```jsx
+import {fencer, portal, jlog} from 'fencer';
+import {useFetch, readTextFormat} from 'fencer-fetch';
+
+const SelfDump = ({dump}) => (
+  <main>
+    <h1>self dump :: fencer</h1>
+    <hr/>
+    <pre>{dump |> jlog}</pre>
+  </main>
+);
+
+useFetch('')
+  |> readTextFormat
+  |> map(dump => ({dump}))
+  |> SelfDump
+  |> portal;
+```
+
+### *Bonus: poipeline operator*
 
 #### **.babelrc**
 ```json

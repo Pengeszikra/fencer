@@ -20,3 +20,5 @@ export const fencer = (tag, attrs, ...children) => {
 }
 
 export const jlog = target => JSON.stringify(target, null, 2);
+
+export const portal = view => document.body.appendChild(view);

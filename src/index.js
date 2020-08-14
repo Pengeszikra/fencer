@@ -1,3 +1,3 @@
-import { fencer, jlog } from './fencer';
+import { fencer, jlog, portal } from './fencer';
 
-export { fencer, jlog };
+export { fencer, jlog, portal };
